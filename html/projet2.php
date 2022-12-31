@@ -23,31 +23,7 @@
 </head>
     <body>
         
-        <nav class="blue-grey navbar-fixed saira">
-            <div class="nav-wrapper container">
-                <a href="#" class="brand-logo hide-on-small-only">Max & Heiko</a>
-                <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="../index.php">Présentation</a></li>
-                    <li><a href="projet1.php">Projet 1</a></li>
-                    <li><a href="projet2.php">Projet 2</a></li>
-                    <li><a href="projet3.php">Projet 3</a></li>
-                    <li><a href="#contact" class="modal-trigger">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <ul class="sidenav" id="mobile-links">
-            <li><a href="../index.php">Présentation</a></li>
-            <li><a href="projet1.php">Projet 1</a></li>
-            <li><a href="projet2.php">Projet 2</a></li>
-            <li><a href="projet3.php">Projet 3</a></li>
-            <li><a href="#contact" class="modal-trigger">Contact</a></li>
-        </ul>
+    <?php include "../phpimports/navbar.php"; ?>
 
         <img hidden id="rain" src="../img/rain.gif" alt="gif de pluie">
         <!--projet 2-->
@@ -120,61 +96,9 @@
             </div>
         </div>
 
-        <div class="container">    
-            <div class="modal" id="contact">
-                <div class="modal-content">
-                    <h3 class="black-text">Formulaire de Contact</h3>
-                    <form>
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input type="text" class="validate" id="first_name">
-                                <label for="first_name">Prénom</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input type="text" class="validate" id="last_name">
-                                <label for="last_name">Nom de Famille</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
-                <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn">
-                        <i class="material-icons left">send</i>
-                        Envoyer
-                    </a>
-                </div>
-            </div>
-        </div>
+        
 
-        <footer class="page-footer blue-grey foo saira">
-            <div class="container">
-                <div class="row valign-wrapper">
-                    <div class="col s6">
-                        <h4>
-                            A Propos 
-                        </h4>
-                        <p>Ce site a été conçus dans le cadre d'un projet noté pour l'école Guardia Cybersecurity School en Novembre 2022</p>
-                        </div>
-                    <div class="col s6 center-align iconsfo">
-                        <i class="material-icons">chat</i>
-                        <i class="material-icons">call</i>
-                        <i class="material-icons">description</i>
-                        <i class="material-icons">edit</i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-copyright foo">
-                <div class="container">
-                    © 2022 Copyright Max&Heiko
-                </div>
-            </div>
-        </footer>
+        <?php include '../phpimports/footer.php'; ?>
 
        <script src="../js/jquery.min.js" charset="utf-8"></script>
        <script type="text/javascript" src="../js/materialize.min.js"></script>

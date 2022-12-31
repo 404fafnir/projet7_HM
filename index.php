@@ -1,7 +1,4 @@
-<?php
 
-
-?>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -29,31 +26,7 @@
 
     <body>
         
-        <nav class="purple darken-2 navbar-fixed saira">
-            <div class="nav-wrapper container">
-                <a href="#" class="brand-logo hide-on-small-only" id="mh">Max & Heiko</a>
-                <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="index.php">Présentation</a></li>
-                    <li><a href="html/projet1.php">Projet 1</a></li>
-                    <li><a href="html/projet2.php">Projet 2</a></li>
-                    <li><a href="html/projet3.php">Projet 3</a></li>
-                    <li><a href="#contact" class="modal-trigger">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <ul class="sidenav saira" id="mobile-links">
-            <li><a href="#presentation">Présentation</a></li>
-            <li><a href="html/projet1.php">Projet 1</a></li>
-            <li><a href="html/projet2.php">Projet 2</a></li>
-            <li><a href="html/projet3.php">Projet 3</a></li>
-            <li><a href="#contact" class="modal-trigger">Contact</a></li>
-        </ul>
+        <?php include "phpimports/navbar.php"; ?>    
 
         <img hidden id="rain" src="img/rain.gif" alt="gif de pluie">
 
@@ -91,7 +64,7 @@
             </div>
         </div>
 
-        <?php include '../phpimports/template.php'; ?>
+        <?php include 'phpimports/footer.php'; ?>
         
         <!--JS-->
         <script src="js/jquery.min.js" charset="utf-8"></script>
