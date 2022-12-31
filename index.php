@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+
+
+?>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -35,10 +38,10 @@
                 </a>
 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Présentation</a></li>
-                    <li><a href="html/projet1.html">Projet 1</a></li>
-                    <li><a href="html/projet2.html">Projet 2</a></li>
-                    <li><a href="html/projet3.html">Projet 3</a></li>
+                    <li><a href="index.php">Présentation</a></li>
+                    <li><a href="html/projet1.php">Projet 1</a></li>
+                    <li><a href="html/projet2.php">Projet 2</a></li>
+                    <li><a href="html/projet3.php">Projet 3</a></li>
                     <li><a href="#contact" class="modal-trigger">Contact</a></li>
                 </ul>
             </div>
@@ -46,9 +49,9 @@
 
         <ul class="sidenav saira" id="mobile-links">
             <li><a href="#presentation">Présentation</a></li>
-            <li><a href="html/projet1.html">Projet 1</a></li>
-            <li><a href="html/projet2.html">Projet 2</a></li>
-            <li><a href="html/projet3.html">Projet 3</a></li>
+            <li><a href="html/projet1.php">Projet 1</a></li>
+            <li><a href="html/projet2.php">Projet 2</a></li>
+            <li><a href="html/projet3.php">Projet 3</a></li>
             <li><a href="#contact" class="modal-trigger">Contact</a></li>
         </ul>
 
@@ -82,67 +85,14 @@
         <!--carrousel des projets-->
         <div class="container">
             <div class="carousel carousel-slider">
-                <a href="html/projet1.html" class="carousel-item"><img class="" src="img/trophy.jpg" alt="photo 4l trophy"></a>
-                <a href="html/projet2.html" class="carousel-item"><img class="" src="img/Screenshot_code_Py_Chaos.png" alt="photo projet Py Chaos"></a>
-                <a href="html/projet3.html" class="carousel-item"><img class="" src="img/salle_info.webp" alt="photo projet python"></a>
+                <a href="html/projet1.php" class="carousel-item"><img class="" src="img/trophy.jpg" alt="photo 4l trophy"></a>
+                <a href="html/projet2.php" class="carousel-item"><img class="" src="img/Screenshot_code_Py_Chaos.png" alt="photo projet Py Chaos"></a>
+                <a href="html/projet3.php" class="carousel-item"><img class="" src="img/salle_info.webp" alt="photo projet python"></a>
             </div>
         </div>
 
+        <?php include '../phpimports/template.php'; ?>
         
-        <footer class="page-footer purple darken-2 foo saira">
-            <div class="container">
-                <div class="row valign-wrapper">
-                    <div class="col s6">
-                        <h3>
-                            A Propos 
-                        </h3>
-
-                        <p>Ce site a été conçus dans le cadre d'un projet noté pour l'école Guardia Cybersecurity School en Novembre 2022</p>
-                    </div>
-                    <div class="col s6 center-align iconsfo">
-                        <i class="material-icons">chat</i>
-                        <i class="material-icons">call</i>
-                        <i class="material-icons">description</i>
-                        <i class="material-icons">edit</i>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="modal" id="contact">
-                    <div class="modal-content">
-                        <h2 class="black-text center-align">Formulaire de Contact</h2> 
-                        <form>
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input type="text" class="validate" id="first_name">
-                                    <label for="first_name">Prénom</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input type="text" class="validate" id="last_name">
-                                    <label for="last_name">Nom de Famille</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                    <label for="textarea1">Message</label>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn">
-                            <i class="material-icons left">send</i>
-                            Envoyer
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright foo">
-                <div class="container">
-                   <p>© 2022 Copyright Max&Heiko</p>
-                </div>
-            </div>
-        </footer>
         <!--JS-->
         <script src="js/jquery.min.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>

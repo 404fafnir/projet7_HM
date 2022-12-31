@@ -19,11 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
-    <title>4L Trophy</title>
+    <title>Py_Chaos</title>
 </head>
     <body>
         
-        <nav class="yellow accent-4 navbar-fixed saira">
+        <nav class="blue-grey navbar-fixed saira">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo hide-on-small-only">Max & Heiko</a>
                 <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
@@ -32,76 +32,87 @@
                 </a>
 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="../index.html">Présentation</a></li>
-                    <li><a href="projet1.html">Projet 1</a></li>
-                    <li><a href="projet2.html">Projet 2</a></li>
-                    <li><a href="projet3.html">Projet 3</a></li>
+                    <li><a href="../index.php">Présentation</a></li>
+                    <li><a href="projet1.php">Projet 1</a></li>
+                    <li><a href="projet2.php">Projet 2</a></li>
+                    <li><a href="projet3.php">Projet 3</a></li>
                     <li><a href="#contact" class="modal-trigger">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-links">
-            <li><a href="../index.html">Présentation</a></li>
-            <li><a href="projet1.html">Projet 1</a></li>
-            <li><a href="projet2.html">Projet 2</a></li>
-            <li><a href="projet3.html">Projet 3</a></li>
+            <li><a href="../index.php">Présentation</a></li>
+            <li><a href="projet1.php">Projet 1</a></li>
+            <li><a href="projet2.php">Projet 2</a></li>
+            <li><a href="projet3.php">Projet 3</a></li>
             <li><a href="#contact" class="modal-trigger">Contact</a></li>
         </ul>
 
         <img hidden id="rain" src="../img/rain.gif" alt="gif de pluie">
-        <!--projet 1-->
+        <!--projet 2-->
         <div class="container center-align" id="projet1">
-            <h1 class="play">4L Trophy</h1>
+            <h1 class="play">Py Chaos</h1>
             <p class="tinos">
-                Le Raid 4L Trophy est un raid automobile solidaire destiné aux jeunes de moins de 28 ans et couru exclusivement en Renault 4.
-                Créé par Jean-Jacques Rey en 1997, il est organisé par l'entreprise Desertours en partenariat avec l'École supérieure de commerce de Rennes, qui apporte l'encadrement bénévole.
-                Ce raid, composé de plusieurs milliers de voitures, amène au Maroc des jouets et des fournitures scolaires, ainsi que quelques tonnes de nourriture et quelques milliers d'euros de dons.
-            </p>
+                Py_Chaos est un code python que j'ai (Heiko) créer en ... 2022, à la suite du visionage 
+                d'une vidéo de la chaine youtube NumberPhile intitulée "Chaos Game". Le jeu est très simple mais pourtant,
+                il produit des résultats pour le moins surprenants...
+                sur un graphique orthonormé, choisissez aléatoirement 3 points A, B et C. Créez ensuite un point depuis lequel vous allez commencer.
+                Prenez ensuite un dé classique, si le dé tombe sur 1 ou 2, vous vous déplacerez de votre position actuelle à la moitié de
+                la distance qui vous sépare du point A, si le dé tombe sur 3 ou 4, c'est pareil mais vers le point B et pour 5 et 6 c'est vers 
+                le point C.
 
+                répétez autant de fois que vous en aurez le courage.
+            
+            </p>
+            
             <!--Parallax-->
             <div class="parallax-container">
-                <div class="parallax"><img src="../img/trophy.jpg" alt="photo 4l trophy en parallax"></div>
+                <div class="parallax"><img src="../img/triangle-de-sierpinski.jpg" alt="image en parallaxe d'un triangle de sierpinski"></div>
             </div>
-
-            <p class="tinos">
-                Le 4L Trophy permet d'apporter des fournitures scolaires aux enfants du Maroc, en collaboration avec l'association « Enfants du désert ». Chaque équipage doit emporter soit deux sacs à dos avec des fournitures scolaires et deux sacs de sport avec des affaires sportives, soit un sac à dos et un de sport remplis et un chèque de minimum 20 € au nom de l'association « Enfants du désert ». Avant 2006, chaque équipage devait emporter 50 kg de matériel scolaire ou un chèque au nom de l'association. L'ensemble de la collecte est ensuite distribué sur place aux enfants marocains. Norauto a également pu offrir 90 vélos pour la mobilité des enfants pour aller à l’école, des vêtements de sports ont aussi été offerts.
-            </p>
-            <p class="tinos">
-                Les dons faits à l'association « Enfants du désert » permettent la construction d'écoles au Maroc. Cette association effectue la distribution auprès d'associations locales, « pour ne pas faire de néo-colonialisme »3. Entre 2012 et 2019, 26 classes ont été ouvertes grâce au raid.
-            </p>
-            <img class="responsive-img imgw" src="../img/4lsand.webp" alt="photo 4L dans le sable">
             
-            <!--Carousel projet 1-->
-            <div class="row valign-wrapper">
+                        
+            <img class="responsive-img imgw" src="../img/Screenshot_code_Py_Chaos.png" alt="photo de mon code">
 
+            <p class="black-text tinos">
+                Vous pourrez vous apperçevoir que malgré l'omniprésence de l'aléatoirement
+                on se retrouve quand même avec des figures extrêmement régulières, ordonnées et même spéciales, j'ai
+                nommé des fractales et dans cet exemple plus précisement des triangles de Sierpiński.
+            </p>
+
+            <!--Carousel projet 2-->
+            <div class="row valign-wrapper">
+            
                 <i class="material-icons medium prev col m1 l1 hide-on-small-and-down">chevron_left</i>
                 
                 <div class="container carousel carousel-slider col s12 m12 l12">
                     <a href="#one!" class="carousel-item">
                         <div class="row yellow accent-4">
-                            <img src="../img/4Lfun.jpg" alt="photo 4l avec des gens content" class="col s6">
-                            <p class="col s6 black-text lobster">
-                                Cet événement est avant tout une expérience inoubliable et partagée avec tous les participants du 4L Trophy, une ambiance de partage et d'entraide qui donne envie chaque années à de nouveaux adhérants de participer au projet.
+                            <img src="../img/PyChaos_150_3_2_10k.png" alt="capture d'écran de la première figure" class="col s6">
+                            <p class="col s6 black-text lobster">Voici la figue que l'on obtient en ayant une grille de 150, 3 points de départs, que la division
+                                s'effectue par 2 et que l'on a 10000 itérations !
                             </p>    
                         </div>
                     </a>
 
                     <a href="#two!" class="carousel-item">
                         <div class="row blue-grey">
-                            <img src="../img/4Lmap.jpg" alt="image du trajet du 4L" class="col s6">
+                            <img src="../img/PyChaos_150_4_2_10k.png" alt="capture d'écran de la deuxième figure" class="col s6">
                             <p class="col s6 black-text lobster">
-                                Plus de 8000 kilomètres en compagnie de milliers d'autres 4L, un premier trajet assez important consiste à ce rendre en bas des côtes Espagnol, grâce au ferry qui nous dépose au maroc on continue notre route dans le désert jusqu'a notre retour en France.
+                                Voici la figue que l'on obtient en ayant une grille de 150, 4 points de départs, que la division
+                                s'effectue par 2 et que l'on a 10000 itérations, ce n'est plus techniquement un triangle de serpinski, mais ça n'en reste pas moins 
+                                une fractale !
                             </p>    
                         </div>
                     </a>
 
                     <a href="#three!" class="carousel-item">
                         <div class="row light-blue">
-                            <img src="../img/4Lsponsor.webp" alt="image d'une 4l floquée par les sponsors" class="col s6">
+                            <img src="../img/PyChaos_150_3_3_1k.png" alt="capture d'écran de la troisième figure" class="col s6">
                             <p class="col s6 black-text lobster">
-                                De nombreux sponsors permettent de faire cet événement comme des écoles (guardia) ou encore des marques qui aident à diminuer les frais de l'incription (3200 euros) ainsi que l'achat de la 4L, des fournitures pour les enfants du désert, les frais de péages, etc
-                            </p>    
+                                Voici la figue que l'on obtient en ayant une grille de 150, 3 points de départs, que la division
+                                s'effectue par 3 et que l'on a 1000 itérations, on se retrouve avec des mini triangles de serpinksi qui se répètent.
+                            </p>
                         </div>
                     </a>
                 </div>
@@ -140,17 +151,15 @@
             </div>
         </div>
 
-        <footer class="page-footer purple darken-2 foo saira">
+        <footer class="page-footer blue-grey foo saira">
             <div class="container">
                 <div class="row valign-wrapper">
                     <div class="col s6">
                         <h4>
                             A Propos 
                         </h4>
-
                         <p>Ce site a été conçus dans le cadre d'un projet noté pour l'école Guardia Cybersecurity School en Novembre 2022</p>
-                    
-                    </div>
+                        </div>
                     <div class="col s6 center-align iconsfo">
                         <i class="material-icons">chat</i>
                         <i class="material-icons">call</i>

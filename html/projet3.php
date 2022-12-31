@@ -19,11 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
-    <title>Py_Chaos</title>
+    <title>Projet 3 Guardia</title>
 </head>
     <body>
         
-        <nav class="blue-grey navbar-fixed saira">
+        <nav class="light-blue darken-3 navbar-fixed saira">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo hide-on-small-only">Max & Heiko</a>
                 <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
@@ -32,87 +32,63 @@
                 </a>
 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="../index.html">Présentation</a></li>
-                    <li><a href="projet1.html">Projet 1</a></li>
-                    <li><a href="projet2.html">Projet 2</a></li>
-                    <li><a href="projet3.html">Projet 3</a></li>
+                    <li><a href="../index.php">Présentation</a></li>
+                    <li><a href="projet1.php">Projet 1</a></li>
+                    <li><a href="projet2.php">Projet 2</a></li>
+                    <li><a href="projet3.php">Projet 3</a></li>
                     <li><a href="#contact" class="modal-trigger">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-links">
-            <li><a href="../index.html">Présentation</a></li>
-            <li><a href="projet1.html">Projet 1</a></li>
-            <li><a href="projet2.html">Projet 2</a></li>
-            <li><a href="projet3.html">Projet 3</a></li>
+            <li><a href="../index.php">Présentation</a></li>
+            <li><a href="projet1.php">Projet 1</a></li>
+            <li><a href="projet2.php">Projet 2</a></li>
+            <li><a href="projet3.php">Projet 3</a></li>
             <li><a href="#contact" class="modal-trigger">Contact</a></li>
         </ul>
 
-        <img hidden id="rain" src="../img/rain.gif" alt="gif de pluie">
-        <!--projet 2-->
+        <img hidden id="rain" src="../img/rain.gif" alt="gif de la pluie">
+        <!--projet 3-->
         <div class="container center-align" id="projet1">
-            <h1 class="play">Py Chaos</h1>
-            <p class="tinos">
-                Py_Chaos est un code python que j'ai (Heiko) créer en ... 2022, à la suite du visionage 
-                d'une vidéo de la chaine youtube NumberPhile intitulée "Chaos Game". Le jeu est très simple mais pourtant,
-                il produit des résultats pour le moins surprenants...
-                sur un graphique orthonormé, choisissez aléatoirement 3 points A, B et C. Créez ensuite un point depuis lequel vous allez commencer.
-                Prenez ensuite un dé classique, si le dé tombe sur 1 ou 2, vous vous déplacerez de votre position actuelle à la moitié de
-                la distance qui vous sépare du point A, si le dé tombe sur 3 ou 4, c'est pareil mais vers le point B et pour 5 et 6 c'est vers 
-                le point C.
-
-                répétez autant de fois que vous en aurez le courage.
-            
+            <h1 class="play">Initiation à l'Algo</h1>
+            <p class="tinos">Pour ce troisième et dernier projet nous allons vous présenter le troisième projet que nous avons effectués au sein de Guardia Cybersecurity School.
+                Ce projet a été assez facile pour moi car j'avais déjà fait du Pyhton auparavent et j'avais déjà de très bonnes bases en algorithmique.
             </p>
             
             <!--Parallax-->
             <div class="parallax-container">
-                <div class="parallax"><img src="../img/triangle-de-sierpinski.jpg" alt="image en parallaxe d'un triangle de sierpinski"></div>
+                <div class="parallax"><img src="../img/python.webp" alt="logo du language de programmation Pyhton en parallaxe"></div>
             </div>
+            <p class="tinos">Le projet consistait à coder plusieurs jeux différents en Python, un Pierre Feuille Ciseau, un Morpion et un PacMan pour les plus avancés
+                <br> (Et si vous vous posez la question, oui, c'est moi sur la photo !)
+            </p>           
             
-                        
-            <img class="responsive-img imgw" src="../img/Screenshot_code_Py_Chaos.png" alt="photo de mon code">
+            <img class="responsive-img imgw" src="../img/salle_info.webp" alt="photo d'une salle informatique">
 
-            <p class="black-text tinos">
-                Vous pourrez vous apperçevoir que malgré l'omniprésence de l'aléatoirement
-                on se retrouve quand même avec des figures extrêmement régulières, ordonnées et même spéciales, j'ai
-                nommé des fractales et dans cet exemple plus précisement des triangles de Sierpiński.
-            </p>
-
-            <!--Carousel projet 2-->
+            <!--Carousel projet 3-->
             <div class="row valign-wrapper">
-            
                 <i class="material-icons medium prev col m1 l1 hide-on-small-and-down">chevron_left</i>
-                
                 <div class="container carousel carousel-slider col s12 m12 l12">
                     <a href="#one!" class="carousel-item">
                         <div class="row yellow accent-4">
-                            <img src="../img/PyChaos_150_3_2_10k.png" alt="capture d'écran de la première figure" class="col s6">
-                            <p class="col s6 black-text lobster">Voici la figue que l'on obtient en ayant une grille de 150, 3 points de départs, que la division
-                                s'effectue par 2 et que l'on a 10000 itérations !
-                            </p>    
+                            <img src="../img/ShiFuMi.png" alt="capture d'écran d'une partie de mon code shifumi" class="col s6">
+                            <p class="col s6 black-text lobster">Voici une partie de mon code pour le ShiFuMi.</p>    
                         </div>
                     </a>
 
                     <a href="#two!" class="carousel-item">
                         <div class="row blue-grey">
-                            <img src="../img/PyChaos_150_4_2_10k.png" alt="capture d'écran de la deuxième figure" class="col s6">
-                            <p class="col s6 black-text lobster">
-                                Voici la figue que l'on obtient en ayant une grille de 150, 4 points de départs, que la division
-                                s'effectue par 2 et que l'on a 10000 itérations, ce n'est plus techniquement un triangle de serpinski, mais ça n'en reste pas moins 
-                                une fractale !
-                            </p>    
+                            <img src="../img/morpion.png" alt="capture d'écran d'une partie de mon code morpion" class="col s6">
+                            <p class="col s6 black-text lobster">Ce Morpion a été codé pour qu'il s'affiche dans l'invité de commande et non grâce à une interface graphique.</p>    
                         </div>
                     </a>
 
                     <a href="#three!" class="carousel-item">
                         <div class="row light-blue">
-                            <img src="../img/PyChaos_150_3_3_1k.png" alt="capture d'écran de la troisième figure" class="col s6">
-                            <p class="col s6 black-text lobster">
-                                Voici la figue que l'on obtient en ayant une grille de 150, 3 points de départs, que la division
-                                s'effectue par 3 et que l'on a 1000 itérations, on se retrouve avec des mini triangles de serpinksi qui se répètent.
-                            </p>
+                            <img src="../img/pacman.png" alt="capture d'écran d'une partie de mon code PacMan" class="col s6">
+                            <p class="col s6 black-text lobster">Le PacMan a été le projet sur lequel j'ai passé le plus de temps et qui était le plus compliqué à mettre en place. Par ailleurs, il ne fonctionne toujours pas.</p>    
                         </div>
                     </a>
                 </div>
@@ -151,15 +127,16 @@
             </div>
         </div>
 
-        <footer class="page-footer blue-grey foo saira">
+        <footer class="page-footer light-blue darken-3 foo saira">
             <div class="container">
                 <div class="row valign-wrapper">
                     <div class="col s6">
                         <h4>
                             A Propos 
                         </h4>
+
                         <p>Ce site a été conçus dans le cadre d'un projet noté pour l'école Guardia Cybersecurity School en Novembre 2022</p>
-                        </div>
+                    </div>
                     <div class="col s6 center-align iconsfo">
                         <i class="material-icons">chat</i>
                         <i class="material-icons">call</i>
