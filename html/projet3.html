@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <title>Projet 3 Guardia</title>
+</head>
+    <body>
+        
+        <nav class="light-blue darken-3 navbar-fixed saira">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo hide-on-small-only">Max & Heiko</a>
+                <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Présentation</a></li>
+                    <li><a href="projet1.html">Projet 1</a></li>
+                    <li><a href="projet2.html">Projet 2</a></li>
+                    <li><a href="projet3.html">Projet 3</a></li>
+                    <li><a href="#contact" class="modal-trigger">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-links">
+            <li><a href="../index.html">Présentation</a></li>
+            <li><a href="projet1.html">Projet 1</a></li>
+            <li><a href="projet2.html">Projet 2</a></li>
+            <li><a href="projet3.html">Projet 3</a></li>
+            <li><a href="#contact" class="modal-trigger">Contact</a></li>
+        </ul>
+
+        <img hidden id="rain" src="../img/rain.gif" alt="gif de la pluie">
+        <!--projet 3-->
+        <div class="container center-align" id="projet1">
+            <h1 class="play">Initiation à l'Algo</h1>
+            <p class="tinos">Pour ce troisième et dernier projet nous allons vous présenter le troisième projet que nous avons effectués au sein de Guardia Cybersecurity School.
+                Ce projet a été assez facile pour moi car j'avais déjà fait du Pyhton auparavent et j'avais déjà de très bonnes bases en algorithmique.
+            </p>
+            
+            <!--Parallax-->
+            <div class="parallax-container">
+                <div class="parallax"><img src="../img/python.webp" alt="logo du language de programmation Pyhton en parallaxe"></div>
+            </div>
+            <p class="tinos">Le projet consistait à coder plusieurs jeux différents en Python, un Pierre Feuille Ciseau, un Morpion et un PacMan pour les plus avancés
+                <br> (Et si vous vous posez la question, oui, c'est moi sur la photo !)
+            </p>           
+            
+            <img class="responsive-img imgw" src="../img/salle_info.webp" alt="photo d'une salle informatique">
+
+            <!--Carousel projet 3-->
+            <div class="row valign-wrapper">
+                <i class="material-icons medium prev col m1 l1 hide-on-small-and-down">chevron_left</i>
+                <div class="container carousel carousel-slider col s12 m12 l12">
+                    <a href="#one!" class="carousel-item">
+                        <div class="row yellow accent-4">
+                            <img src="../img/ShiFuMi.png" alt="capture d'écran d'une partie de mon code shifumi" class="col s6">
+                            <p class="col s6 black-text lobster">Voici une partie de mon code pour le ShiFuMi.</p>    
+                        </div>
+                    </a>
+
+                    <a href="#two!" class="carousel-item">
+                        <div class="row blue-grey">
+                            <img src="../img/morpion.png" alt="capture d'écran d'une partie de mon code morpion" class="col s6">
+                            <p class="col s6 black-text lobster">Ce Morpion a été codé pour qu'il s'affiche dans l'invité de commande et non grâce à une interface graphique.</p>    
+                        </div>
+                    </a>
+
+                    <a href="#three!" class="carousel-item">
+                        <div class="row light-blue">
+                            <img src="../img/pacman.png" alt="capture d'écran d'une partie de mon code PacMan" class="col s6">
+                            <p class="col s6 black-text lobster">Le PacMan a été le projet sur lequel j'ai passé le plus de temps et qui était le plus compliqué à mettre en place. Par ailleurs, il ne fonctionne toujours pas.</p>    
+                        </div>
+                    </a>
+                </div>
+                <i class="material-icons medium next col m1 l1 hide-on-small-and-down">chevron_right</i>
+            </div>
+        </div>
+
+        <div class="container">    
+            <div class="modal" id="contact">
+                <div class="modal-content">
+                    <h3 class="black-text">Formulaire de Contact</h3>
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" class="validate" id="first_name">
+                                <label for="first_name">Prénom</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="text" class="validate" id="last_name">
+                                <label for="last_name">Nom de Famille</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn">
+                        <i class="material-icons left">send</i>
+                        Envoyer
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer light-blue darken-3 foo saira">
+            <div class="container">
+                <div class="row valign-wrapper">
+                    <div class="col s6">
+                        <h4>
+                            A Propos 
+                        </h4>
+
+                        <p>Ce site a été conçus dans le cadre d'un projet noté pour l'école Guardia Cybersecurity School en Novembre 2022</p>
+                    </div>
+                    <div class="col s6 center-align iconsfo">
+                        <i class="material-icons">chat</i>
+                        <i class="material-icons">call</i>
+                        <i class="material-icons">description</i>
+                        <i class="material-icons">edit</i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-copyright foo">
+                <div class="container">
+                    © 2022 Copyright Max&Heiko
+                </div>
+            </div>
+        </footer>
+
+       <script src="../js/jquery.min.js" charset="utf-8"></script>
+       <script type="text/javascript" src="../js/materialize.min.js"></script>
+       <script src="../js/script.js" charset="utf-8"></script>
+
+    </body>
+</html>
