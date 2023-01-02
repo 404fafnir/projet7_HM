@@ -5,21 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--Material icons-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-        <!-- Materialize CSS -->
-        <link rel="stylesheet" href="css/materialize.css">
-        <link rel="stylesheet" href="css/styles.css">
-
-        <!--Google Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+        <?php include "phpimports/StyleImports.php"; ?>
 
         <title>Max and Heiko</title>
     </head>
@@ -66,9 +52,7 @@
 
         <?php include 'phpimports/footer.php'; ?>
         
-        <!--JS-->
-        <script src="js/jquery.min.js" charset="utf-8"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script src="js/script.js" charset="utf-8"></script> 
+        <?php include "phpimports/ScriptImports.php"; ?>
+ 
     </body>
 </html>
